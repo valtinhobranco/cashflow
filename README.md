@@ -25,6 +25,11 @@ eficaz das despesas.
 - **RESTful API com Documentação Swagger**: Interface documentada que facilita a integração e o teste por parte dos
 desenvolvedores.
 
+## Construido com: 
+
+![.NET Badge][net-badge] ![MySQL][mysql]
+
+
 ## Getting Started 
 
 Para obter uma cópia local funcionando, siga estes passos simples.
@@ -55,3 +60,8 @@ Para obter uma cópia local funcionando, siga estes passos simples.
 <!-- images -->
 
 [banner-hero]: images/heroimage.png
+
+[net-badge]: https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=fff&style=flat
+
+
+[mysql]: https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=flat-square
