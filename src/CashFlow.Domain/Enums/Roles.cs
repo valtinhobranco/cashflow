@@ -1,6 +1,6 @@
 ﻿namespace CashFlow.Domain.Enums;
 
-public class Role
+public static class Roles
 {
     public const string ADMIN = "admin";
 
