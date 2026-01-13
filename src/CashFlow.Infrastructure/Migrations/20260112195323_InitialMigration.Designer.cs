@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CashFlow.Infrastructure.Migrations
 {
     [DbContext(typeof(CashFlowDbContext))]
-    [Migration("20260112184915_InitialMigration")]
+    [Migration("20260112195323_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -83,7 +83,7 @@ namespace CashFlow.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<Guid>("guid")
+                    b.Property<Guid>("UserIdentifier")
                         .HasColumnType("char(36)");
 
                     b.HasKey("Id");

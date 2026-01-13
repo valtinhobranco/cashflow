@@ -29,7 +29,7 @@ public static class DependencyInjectionExtension
     
         var connectionString = configuration.GetConnectionString("Connection"); ;
 
-        var version = new Version(9, 0, 0);
+        var version = new Version(8, 0, 43);
 
         var serverVersion = new MySqlServerVersion(version);
 
